@@ -1,0 +1,8 @@
+{
+  "ext_name": {
+    "message": "LinkedIn Easy Apply Unchecker"
+  },
+  "ext_description": {
+    "message": "Desmarca automáticamente el checkbox \"Sigue a...\" en el modal de Easy Apply de LinkedIn."
+  }
+}

@@ -1,8 +1,25 @@
 {
   "manifest_version": 3,
-  "name": "LinkedIn Easy Apply Unchecker",
-  "description": "Desmarca automáticamente el checkbox \"Sigue a...\" en el modal de Easy Apply de LinkedIn.",
-  "version": "1.0.0",
+  "name": "__MSG_ext_name__",
+  "description": "__MSG_ext_description__",
+  "default_locale": "es",
+  "version": "1.1.0",
+  "permissions": [
+    "storage"
+  ],
+  "icons": {
+    "16":  "icons/icon16.png",
+    "48":  "icons/icon48.png",
+    "128": "icons/icon128.png"
+  },
+  "action": {
+    "default_popup": "popup.html",
+    "default_icon": {
+      "16":  "icons/icon16.png",
+      "48":  "icons/icon48.png",
+      "128": "icons/icon128.png"
+    }
+  },
   "content_scripts": [
     {
       "matches": [
